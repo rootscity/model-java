@@ -11,11 +11,11 @@ public class Person extends FirstClassObject {
 	public Boolean living;
 	public Long profilePhoto;
 	public Long coverPhoto;
-	public Integer preferredNameKey;  // key of the preferred name in the names map
-	public Integer preferredBirthKey;  // key of the preferred birth in the facts map
-	public Integer preferredDeathKey;  // key of the preferred death in the facts map
+	public Long preferredNameKey;  // key of the preferred name in the names map
+	public Long preferredBirthKey;  // key of the preferred birth in the facts map
+	public Long preferredDeathKey;  // key of the preferred death in the facts map
 	public Long preferredParentsFamilyId;   // id of the preferred parents Family
-	public Map<Integer, PersonName> names;  // map 2^32 random number -> name
+	public Map<Long, PersonName> names;  // map 2^32 random number -> name
    	public String gender;
-   	public Map<Integer, PersonFact> facts;  // map 2^32 random number -> fact
+   	public Map<Long, PersonFact> facts;  // map 2^32 random number -> fact
 }

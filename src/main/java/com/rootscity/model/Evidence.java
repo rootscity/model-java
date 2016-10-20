@@ -12,5 +12,5 @@ public class Evidence extends FirstClassObject {
 	public String externalImageURL;
 	public String text;
 	public EvidenceCitation citation;
-	public Map<Integer, EvidencePersona> personas;
+	public Map<Long, EvidencePersona> personas;
 }

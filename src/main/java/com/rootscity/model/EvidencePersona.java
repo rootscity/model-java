@@ -8,8 +8,8 @@ import java.util.Map;
  */
 public class EvidencePersona {
     public Boolean principal;
-    public Integer relatedToKey;
+    public Long relatedToKey;
     public String relationshipType;
-    public Map<Integer, Fact> facts;
-    public Map<Integer, Name> names;
+    public Map<Long, Fact> facts;
+    public Map<Long, Name> names;
 }

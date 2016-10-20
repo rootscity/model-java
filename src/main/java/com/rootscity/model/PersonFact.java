@@ -11,5 +11,5 @@ public class PersonFact extends Fact {
 	public Long principalId1;
  	public Long principalId2;
 	public Boolean hidden;
-	public Map<Long, Integer> evidencePersonas;  // map EvidenceID -> PersonaID
+	public Map<Long, Long> evidencePersonas;  // map EvidenceID -> PersonaID
 }
