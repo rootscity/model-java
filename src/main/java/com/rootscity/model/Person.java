@@ -8,6 +8,7 @@ import java.util.Map;
  */
 public class Person extends FirstClassObject {
    	public String gedcomId;
+	public Boolean deleted; // set to true if the person is deleted
 	public Boolean living;
 	public Long profilePhoto;
 	public Long coverPhoto;
