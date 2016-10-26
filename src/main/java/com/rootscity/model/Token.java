@@ -5,6 +5,9 @@ package com.rootscity.model;
  * Date: 10/13/16
  */
 public class Token {
+    public String primary;
+    public Long treeId;
+    public Long fsTreeId;
     public Boolean hint;
     public Person[] persons;
     public Evidence[] evidences;
