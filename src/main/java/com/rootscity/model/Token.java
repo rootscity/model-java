@@ -8,7 +8,7 @@ public class Token {
     public String primary;
     public Long treeId;
     public Long fsTreeId;
-    public Boolean hint;
+    public Hinting hinting;
     public Person[] persons;
     public Evidence[] evidences;
     public Family[] families;
