@@ -7,7 +7,7 @@ package com.rootscity.model;
 public class Token {
     public String primary;
     public Long treeId;
-    public Long fsTreeId;
+    public String fsTreeId;
     public Hinting hinting;
     public Person[] persons;
     public Evidence[] evidences;
