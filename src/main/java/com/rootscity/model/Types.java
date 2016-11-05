@@ -104,4 +104,16 @@ public class Types {
   public static final String FACT_TYPE_MARL = "MARL";
   public static final String FACT_TYPE_MARS = "MARS";
 
+  //------------------------------------------
+  // parental relationship types
+  //------------------------------------------
+  public static final String PARENT_TYPE_ADOPTIVE = "ADOPTIVE_PARENT";
+  public static final String PARENT_TYPE_BIOLOGICAL = "BIOLOGICAL_PARENT";
+  public static final String PARENT_TYPE_FAMILY_MEMBER = "FAMILY_MEMBER";
+  public static final String PARENT_TYPE_FOSTER = "FOSTER_PARENT";
+  public static final String PARENT_TYPE_GUARDIAN = "GUARDIAN";
+  public static final String PARENT_TYPE_RELATED = "RELATED";
+  public static final String PARENT_TYPE_STEP = "STEP_PARENT";
+  public static final String PARENT_TYPE_UNKNOWN = "UNKNOWN";
+
 }
