@@ -1,0 +1,128 @@
+{
+  "primary": "persons",
+  "treeId": 1,
+  "fsTreeId": "1",
+  "hinting": {
+    "providers": ["FAMILYSEARCH"],
+    "ids": [7722412719514967],
+  },
+  "persons": [{
+    "id": 7722412719514967,
+    "version": 6,
+    "changeId": 2703896332970091,
+    "gedcomId": "",
+    "living": "TRUE",
+    "profilePhoto": 0,
+    "coverPhoto": 0,
+    "tags": {},
+    "preferredNameKey": 1926947068,
+    "preferredBirthKey": 3903924586,
+    "preferredDeathKey": 0,
+    "preferredParentsFamilyId": 0,
+    "names": {
+      "1926947068": {
+        "nameForms": {
+          "default": {
+            "prefix": "",
+            "given": "Dallan",
+            "surname": "Quass",
+            "suffix": ""
+          }
+        },
+        "type": "",
+        "date": "",
+        "dateSort": "",
+        "hidden": false,
+        "evidencePersonas": {
+          "5665610258826300": 1,
+          "7177667814195608": 1
+        }
+      }
+    },
+    "gender": "MALE",
+    "facts": {
+      "2950366455": {
+        "type": "MARR",
+        "principal": true,
+        "principalId1": 7859608785682060,
+        "principalId2": 0,
+        "value": "",
+        "date": "1984",
+        "dateSort": "19840000",
+        "place": "Provo, Utah, Utah, United States",
+        "placeDetails": "",
+        "placeStandard": "Provo, Utah, Utah, United States",
+        "latitude": 40.244,
+        "longitude": -111.661,
+        "hidden": false,
+        "evidencePersonas": {
+          "7177667814195608": 1
+        }
+      },
+      "3903924586": {
+        "type": "BIRT",
+        "principal": true,
+        "principalId1": 0,
+        "principalId2": 0,
+        "value": "",
+        "date": "1963",
+        "dateSort": "19630000",
+        "place": "",
+        "placeDetails": "",
+        "placeStandard": "",
+        "latitude": 0,
+        "longitude": 0,
+        "hidden": false,
+        "evidencePersonas": {
+          "5665610258826300": 1
+        }
+      }
+    },
+    "createdUser": 14,
+    "createdDate": 1478195881,
+    "editedUser": 14,
+    "editedDate": 1478642318
+  }],
+  "evidences": [{
+  }],
+  "stories": [{
+  }],
+  "notes": [{
+  }],
+  "medias": [{
+  }],
+  "families": [{
+    "id": 2475176755997965,
+    "version": 1,
+    "changeId": 2548053837071309,
+    "gedcomId": "",
+    "husbandId": 4627612789941866,
+    "wifeId": 0,
+    "childRels": {
+      "7722412719514967": {
+        "fatherRel": "",
+        "motherRel": ""
+      }
+    },
+    "createdUser": 14,
+    "createdDate": 1478195895,
+    "editedUser": 0,
+    "editedDate": 0
+  },{
+    "id": 3184273617141865,
+    "version": 1,
+    "changeId": 5175036013961160,
+    "gedcomId": "",
+    "husbandId": 7722412719514967,
+    "wifeId": 7859608785682060,
+    "childRels": {},
+    "createdUser": 14,
+    "createdDate": 1478641141,
+    "editedUser": 0,
+    "editedDate": 0
+  }],
+  "sources": [{
+  }],
+  "leads": [{
+  }]
+}

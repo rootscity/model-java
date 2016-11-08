@@ -1,0 +1,47 @@
+{
+  "primary": "stories",
+  "treeId": 1,
+  "fsTreeId": "1",
+  "hinting": {
+    "providers": ["FAMILYSEARCH"],
+    "ids": [],
+  },
+  "persons": [{
+  }],
+  "evidences": [{
+  }],
+  "stories": [{
+    "id": 4142901688866652,
+    "version": 1,
+    "changeId": 2074064504872150,
+    "gedcomId": "",
+    "title": "My story title",
+    "date": "",
+    "dateSort": "",
+    "place": "",
+    "placeStandard": "",
+    "latitude": 0,
+    "longitude": 0,
+    "text": "My story text",
+    "mediaIds": {
+      "1637662052083886": true
+    },
+    "personIds": {
+      "7722412719514967": true
+    },
+    "createdUser": 14,
+    "createdDate": 1478556760,
+    "editedUser": 0,
+    "editedDate": 0
+  }],
+  "notes": [{
+  }],
+  "medias": [{
+  }],
+  "families": [{
+  }],
+  "sources": [{
+  }],
+  "leads": [{
+  }]
+}

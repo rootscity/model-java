@@ -1,0 +1,49 @@
+{
+  "primary": "medias",
+  "treeId": 1,
+  "fsTreeId": "1",
+  "hinting": {
+    "providers": ["FAMILYSEARCH"],
+    "ids": [],
+  },
+  "persons": [{
+  }],
+  "evidences": [{
+  }],
+  "stories": [{
+  }],
+  "notes": [{
+  }],
+  "medias": [{
+    "id": 2546635435947558,
+    "version": 2,
+    "changeId": 1845934001616799,
+    "gedcomId": "",
+    "title": "Papa and Dallan",
+    "date": "",
+    "dateSort": "",
+    "place": "",
+    "placeStandard": "",
+    "latitude": 0,
+    "longitude": 0,
+    "text": "",
+    "url": "",
+    "fileTypes": {
+      "0": "image/png"
+    },
+    "personIds": {
+      "4627612789941866": true,
+      "7722412719514967": true
+    },
+    "createdUser": 14,
+    "createdDate": 1478209811,
+    "editedUser": 14,
+    "editedDate": 1478209829
+  }],
+  "families": [{
+  }],
+  "sources": [{
+  }],
+  "leads": [{
+  }]
+}

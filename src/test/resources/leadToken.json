@@ -1,0 +1,41 @@
+{
+  "primary": "leads",
+  "treeId": 1,
+  "fsTreeId": "1",
+  "hinting": {
+    "providers": ["FAMILYSEARCH"],
+    "ids": [],
+  },
+  "persons": [{
+  }],
+  "evidences": [{
+  }],
+  "stories": [{
+  }],
+  "notes": [{
+  }],
+  "medias": [{
+  }],
+  "families": [{
+  }],
+  "sources": [{
+  }],
+  "leads": [{
+    "id": 1509606380469763,
+    "version": 1,
+    "changeId": 3409830279813336,
+    "externalSource": "",
+    "externalId": "",
+    "title": "My Lead title",
+    "url": "http://www.gengophers.com",
+    "text": "My lead text",
+    "hidden": false,
+    "personIds": {
+      "7722412719514967": true
+    },
+    "createdUser": 14,
+    "createdDate": 1478644165,
+    "editedUser": 0,
+    "editedDate": 0
+  }]
+}

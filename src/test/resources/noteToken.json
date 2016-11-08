@@ -1,0 +1,39 @@
+{
+  "primary": "notes",
+  "treeId": 1,
+  "fsTreeId": "1",
+  "hinting": {
+    "providers": ["FAMILYSEARCH"],
+    "ids": [],
+  },
+  "persons": [{
+  }],
+  "evidences": [{
+  }],
+  "stories": [{
+  }],
+  "notes": [{
+    "id": 7674781575389384,
+    "version": 1,
+    "changeId": 5215684608805371,
+    "gedcomId": "",
+    "title": "My Note Title",
+    "text": "My <strong>bold</strong> note Text",
+    "personIds": {
+      "4627612789941866": true,
+      "7722412719514967": true
+    },
+    "createdUser": 14,
+    "createdDate": 1478640835,
+    "editedUser": 0,
+    "editedDate": 0
+  }],
+  "medias": [{
+  }],
+  "families": [{
+  }],
+  "sources": [{
+  }],
+  "leads": [{
+  }]
+}

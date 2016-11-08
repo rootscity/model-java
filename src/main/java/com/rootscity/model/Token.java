@@ -16,4 +16,5 @@ public class Token {
     public Note[] notes;
     public Source[] sources;
     public Story[] stories;
+    public Lead[] leads;
 }
