@@ -116,4 +116,15 @@ public class Types {
   public static final String PARENT_TYPE_STEP = "STEP_PARENT";
   public static final String PARENT_TYPE_UNKNOWN = "UNKNOWN";
 
+  //------------------------------------------
+  // evidence persona relationship types
+  //------------------------------------------
+  public static final String RELATIONSHIP_TYPE_CHILD = "CHILD";
+  public static final String RELATIONSHIP_TYPE_FATHER = "FATHER";
+  public static final String RELATIONSHIP_TYPE_MOTHER = "MOTHER";
+  public static final String RELATIONSHIP_TYPE_SPOUSE = "SPOUSE";
+  public static final String RELATIONSHIP_TYPE_PARENT = "PARENT";
+  public static final String RELATIONSHIP_TYPE_ADOPTIVE_PARENT = "ADOPTIVE_PARENT";
+  public static final String RELATIONSHIP_TYPE_STEP_PARENT = "STEP_PARENT";
+
 }
