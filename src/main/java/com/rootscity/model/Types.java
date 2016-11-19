@@ -87,6 +87,9 @@ public class Types {
   public static final String FACT_TYPE_TRIB = "TRIB";
   public static final String FACT_TYPE_WILL = "WILL";
 
+  // special "gender" fact
+  public static final String FACT_TYPE_SEX = "SEX";  // value starts with "M" or "F"
+
   //------------------------------------------
   // couple facts
   //------------------------------------------
@@ -126,5 +129,15 @@ public class Types {
   public static final String RELATIONSHIP_TYPE_PARENT = "PARENT";
   public static final String RELATIONSHIP_TYPE_ADOPTIVE_PARENT = "ADOPTIVE_PARENT";
   public static final String RELATIONSHIP_TYPE_STEP_PARENT = "STEP_PARENT";
+
+  //------------------------------------------
+  // possible values for "token.primary"
+  //------------------------------------------
+  public static final String TOKEN_TYPE_PERSONS = "persons";
+  public static final String TOKEN_TYPE_EVIDENCES = "evidences";
+  public static final String TOKEN_TYPE_MEDIA = "media";
+  public static final String TOKEN_TYPE_NOTES = "notes";
+  public static final String TOKEN_TYPE_SOURCES = "sources";
+  public static final String TOKEN_TYPE_STORIES = "stories";
 
 }
