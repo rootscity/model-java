@@ -135,7 +135,7 @@ public class Types {
   //------------------------------------------
   public static final String TOKEN_TYPE_PERSONS = "persons";
   public static final String TOKEN_TYPE_EVIDENCES = "evidences";
-  public static final String TOKEN_TYPE_MEDIA = "media";
+  public static final String TOKEN_TYPE_MEDIAS = "medias";
   public static final String TOKEN_TYPE_NOTES = "notes";
   public static final String TOKEN_TYPE_SOURCES = "sources";
   public static final String TOKEN_TYPE_STORIES = "stories";
