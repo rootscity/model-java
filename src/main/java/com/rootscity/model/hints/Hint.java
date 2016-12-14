@@ -1,7 +1,6 @@
 package com.rootscity.model.hints;
 
 public class Hint {
-  public String id;               // composed of fsTreeId_fsRecordId_fsPersonaId
   public String personaUri;       // URI of the potentially matching "persona" in FamilySearch Records
   public String personaName;
   public String personaTitle;

@@ -17,4 +17,5 @@ public class Token {
     public Source[] sources;
     public Story[] stories;
     public Lead[] leads;
+    public Integer timesRetried;
 }
