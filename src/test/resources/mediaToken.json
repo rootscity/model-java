@@ -28,8 +28,10 @@
     "longitude": 0,
     "text": "",
     "url": "",
-    "fileTypes": {
-      "0": "image/png"
+    "fileInfos": {
+      "0": {
+        "contentType": "image/png"
+      }
     },
     "personIds": {
       "4627612789941866": true,
