@@ -17,5 +17,15 @@ public class Token {
     public Source[] sources;
     public Story[] stories;
     public Lead[] leads;
+    public PersonSummary[] relatives;
     public Integer timesRetried;
+
+    public PersonSummary getRel(Long id) {
+        for (PersonSummary rel: relatives) {
+            if (rel.ID==id) {
+                return rel;
+            }
+        }
+        return null;
+    }
 }
