@@ -8,5 +8,7 @@ public class Hint {
   public String recordId;         // id of the record that the persona belongs to
   public String collectionTitle;  // title of the collection that the record belongs to
   public Integer confidence;      // 1-5, 5 being "most confident" (by default you will see only values from 3-5)
-  public Integer eventYear;
+  public Integer eventYear;       // optional
+  public String eventPlace;       // optional
+  public String eventType;        // optional - human (textual) description
 }

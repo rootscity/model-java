@@ -7,7 +7,6 @@ import java.util.Map;
  * Date: 10/13/16
  */
 public class Person extends FirstClassObject {
-	public String gedcomId;
 	public Boolean living;
 	public Long profilePhoto;
 	public Long coverPhoto;
