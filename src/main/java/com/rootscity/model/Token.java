@@ -22,7 +22,7 @@ public class Token {
 
     public PersonSummary getRel(Long id) {
         for (PersonSummary rel: relatives) {
-            if (rel.ID==id) {
+            if (rel.id == id) {
                 return rel;
             }
         }
