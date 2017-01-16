@@ -17,7 +17,13 @@ public class Token {
     public Source[] sources;
     public Story[] stories;
     public PersonSummary[] relatives;
-    public Long[] deletedIds;
+    public Long[] deletedPersonIds;
+    public Long[] deletedEvidenceIds;
+    public Long[] deletedFamilyIds;
+    public Long[] deletedMediaIds;
+    public Long[] deletedNoteIds;
+    public Long[] deletedSourceIds;
+    public Long[] deletedStoryIds;
     public Integer timesRetried;
 
     public PersonSummary getRel(Long id) {
