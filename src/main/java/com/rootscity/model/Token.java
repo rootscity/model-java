@@ -12,7 +12,7 @@ public class Token {
     public Person[] persons;
     public Evidence[] evidences;
     public Family[] families;
-    public Media[] medias;
+    public Media[] media;
     public Note[] notes;
     public Source[] sources;
     public Story[] stories;
