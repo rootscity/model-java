@@ -16,8 +16,8 @@ public class Token {
     public Note[] notes;
     public Source[] sources;
     public Story[] stories;
-    public Lead[] leads;
     public PersonSummary[] relatives;
+    public Long[] deletedIds;
     public Integer timesRetried;
 
     public PersonSummary getRel(Long id) {

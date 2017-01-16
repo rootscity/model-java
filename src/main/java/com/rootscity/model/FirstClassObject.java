@@ -15,5 +15,4 @@ public class FirstClassObject {
  	public Long createdDate;
  	public Integer editedUser;
  	public Long editedDate;
-	public Boolean deleted; // set to true if the object is deleted
 }
