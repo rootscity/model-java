@@ -12,10 +12,26 @@ public class Token {
     public Person[] persons;
     public Evidence[] evidences;
     public Family[] families;
-    public Media[] medias;
+    public Media[] media;
     public Note[] notes;
     public Source[] sources;
     public Story[] stories;
-    public Lead[] leads;
+    public PersonSummary[] relatives;
+    public Long[] deletedPersonIds;
+    public Long[] deletedEvidenceIds;
+    public Long[] deletedFamilyIds;
+    public Long[] deletedMediaIds;
+    public Long[] deletedNoteIds;
+    public Long[] deletedSourceIds;
+    public Long[] deletedStoryIds;
     public Integer timesRetried;
+
+    public PersonSummary getRel(Long id) {
+        for (PersonSummary rel: relatives) {
+            if (rel.id == id) {
+                return rel;
+            }
+        }
+        return null;
+    }
 }

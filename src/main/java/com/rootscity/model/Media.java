@@ -7,7 +7,6 @@ import java.util.Map;
  * Date: 10/13/16
  */
 public class Media extends FirstClassObject {
-    public String gedcomId;
     public String title;
     public String date;
     public String dateSort;
@@ -17,6 +16,6 @@ public class Media extends FirstClassObject {
     public Double longitude;
     public String text;
     public String url;
-    public Map<Long, String> fileTypes;
+    public Map<Long, FileInfo> fileInfos;
     public Map<Long, Boolean> personIds;
 }

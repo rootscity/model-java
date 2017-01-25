@@ -7,7 +7,6 @@ import java.util.Map;
  * Date: 10/13/16
  */
 public class Source extends FirstClassObject {
-    public String gedcomId;
     public String abbr;
     public String externalSource;
     public String externalId;

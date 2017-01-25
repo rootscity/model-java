@@ -3,14 +3,13 @@
   "treeId": 1,
   "fsTreeId": "1",
   "hinting": {
-    "providers": ["FAMILYSEARCH"],
+    "providers": ["familysearch.org"],
     "ids": [7722412719514967]
   },
   "persons": [{
     "id": 7722412719514967,
     "version": 6,
     "changeId": 2703896332970091,
-    "gedcomId": "",
     "living": "TRUE",
     "profilePhoto": 0,
     "coverPhoto": 0,
@@ -78,6 +77,7 @@
         }
       }
     },
+    "externalIds": {},
     "createdUser": 14,
     "createdDate": 1478195881,
     "editedUser": 14,
@@ -95,7 +95,6 @@
     "id": 2475176755997965,
     "version": 1,
     "changeId": 2548053837071309,
-    "gedcomId": "",
     "husbandId": 4627612789941866,
     "wifeId": 0,
     "childRels": {
@@ -104,6 +103,7 @@
         "motherRel": ""
       }
     },
+    "externalIds": {},
     "createdUser": 14,
     "createdDate": 1478195895,
     "editedUser": 0,
@@ -112,10 +112,10 @@
     "id": 3184273617141865,
     "version": 1,
     "changeId": 5175036013961160,
-    "gedcomId": "",
     "husbandId": 7722412719514967,
     "wifeId": 7859608785682060,
     "childRels": {},
+    "externalIds": {},
     "createdUser": 14,
     "createdDate": 1478641141,
     "editedUser": 0,

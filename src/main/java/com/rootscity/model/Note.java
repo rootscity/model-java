@@ -7,7 +7,6 @@ import java.util.Map;
  * Date: 10/13/16
  */
 public class Note extends FirstClassObject {
-    public String gedcomId;
     public String title;
     public String text;
     public Map<Long, Boolean> personIds;

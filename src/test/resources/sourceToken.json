@@ -3,7 +3,7 @@
   "treeId": 1,
   "fsTreeId": "1",
   "hinting": {
-    "providers": ["FAMILYSEARCH"],
+    "providers": ["familysearch.org"],
     "ids": []
   },
   "persons": [{
@@ -22,7 +22,6 @@
     "id": 781262851312902,
     "version": 2,
     "changeId": 6900565937665995,
-    "gedcomId": "",
     "abbr": "My Favorite Source",
     "externalSource": "",
     "externalId": "",
@@ -43,6 +42,7 @@
     "bibCitation": "",
     "text": "",
     "mediaIds": {},
+    "externalIds": {},
     "createdUser": 14,
     "createdDate": 1478565055,
     "editedUser": 14,
