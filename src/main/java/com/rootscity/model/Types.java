@@ -29,11 +29,9 @@ public class Types {
   public static final String FACT_TYPE_AFIL = "_AFIL";
   public static final String FACT_TYPE_AGE = "_AGE";
   public static final String FACT_TYPE_AFN = "AFN";
-  public static final String FACT_TYPE_NICK = "NICK";
   public static final String FACT_TYPE_BIRT = "BIRT";
   public static final String FACT_TYPE_DEAT = "DEAT";
   public static final String FACT_TYPE_BURI = "BURI";
-  public static final String FACT_TYPE_BURL = "BURL";
   public static final String FACT_TYPE_ARVL = "ARVL";
   public static final String FACT_TYPE_DSCR = "DSCR";
   public static final String FACT_TYPE_BAPM = "BAPM";
@@ -68,8 +66,8 @@ public class Types {
   public static final String FACT_TYPE_MOVE = "_MOVE";
   public static final String FACT_TYPE_NAMS = "_NAMS";
   public static final String FACT_TYPE_NID = "_NID";
-  public static final String FACT_TYPE_NATI = "_NATI";
-  public static final String FACT_TYPE_NATU = "_NATU";
+  public static final String FACT_TYPE_NATI = "NATI";
+  public static final String FACT_TYPE_NATU = "NATU";
   public static final String FACT_TYPE_NEWS = "_NEWS";
   public static final String FACT_TYPE_NCHI = "NCHI";
   public static final String FACT_TYPE_OBIT = "_OBIT";
