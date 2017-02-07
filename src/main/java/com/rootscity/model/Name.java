@@ -1,6 +1,5 @@
 package com.rootscity.model;
 
-import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -10,4 +9,9 @@ import java.util.Map;
 public class Name {
    	public Map<String, NameForm> nameForms;
    	public String type;
+
+@Override
+public String toString() {
+	return nameForms==null || nameForms.isEmpty()? "": nameForms.values().toArray()[0].toString();
+}
 }
