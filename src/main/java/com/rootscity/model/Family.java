@@ -7,7 +7,6 @@ import java.util.Map;
  * Date: 10/13/16
  */
 public class Family extends FirstClassObject {
-    public String gedcomId;
     public Long husbandId;
     public Long wifeId;
     public Map<Long, ParentRelationships> childRels;
