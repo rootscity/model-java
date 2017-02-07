@@ -10,12 +10,9 @@ public class HintToken {
   public String fsTreeId;         // the id of the associated tree in FamilySearch
   public Long personId;           // RootsFinder person id
   public String fsPersonUri;      // URI of the associated person in FamilySearch Genealogies
-  public List<Hint> hints;
+  public List<Hint> hints = new ArrayList<>();
 
 	public void addHint(Hint hint) {
-		if (hints==null){
-			hints = new ArrayList<>();
-		}
 		hints.add(hint);
 	}
 }
