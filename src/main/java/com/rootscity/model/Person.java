@@ -7,7 +7,6 @@ import java.util.Map;
  * Date: 10/13/16
  */
 public class Person extends FirstClassObject {
-	public Boolean living;
 	public Long profilePhoto;
 	public Long coverPhoto;
 	public Long preferredNameKey;  // key of the preferred name in the names map
@@ -15,7 +14,8 @@ public class Person extends FirstClassObject {
 	public Long preferredDeathKey;  // key of the preferred death in the facts map
 	public Long preferredParentsFamilyId;   // id of the preferred parents Family
 	public Map<Long, PersonName> names;  // map 2^32 random number -> name
-   public String gender;
-   public Map<Long, PersonFact> facts;  // map 2^32 random number -> fact
+	public String living;
+    public String gender;
+    public Map<Long, PersonFact> facts;  // map 2^32 random number -> fact
 
 }
