@@ -8,7 +8,11 @@ public class PersonSummary {
 	public NameForm nameParts;
 	public String gender;
 	public String birthDate;
+	public String birthDateSort;
 	public String birthPlace;
+	public String birthPlaceStandard;
 	public String deathDate;
+	public String deathDateSort;
 	public String deathPlace;
+	public String deathPlaceStandard;
 }

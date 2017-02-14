@@ -25,13 +25,4 @@ public class Token {
     public Long[] deletedSourceIds;
     public Long[] deletedStoryIds;
     public Integer timesRetried;
-
-    public PersonSummary getRel(Long id) {
-        for (PersonSummary rel: relatives) {
-            if (rel.id == id) {
-                return rel;
-            }
-        }
-        return null;
-    }
 }
