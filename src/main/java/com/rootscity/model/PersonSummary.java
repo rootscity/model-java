@@ -7,6 +7,7 @@ public class PersonSummary {
 	public Long id;
 	public NameForm nameParts;
 	public String gender;
+	public String living;
 	public String birthDate;
 	public String birthDateSort;
 	public String birthPlace;
