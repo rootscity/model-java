@@ -7,4 +7,12 @@ package com.rootscity.model;
 public class ParentRelationships {
     public String fatherRel;
     public String motherRel;
+
+    public ParentRelationships() {
+    }
+
+    public ParentRelationships(String frel, String mrel) {
+        fatherRel = frel == null ? "" : frel;
+        motherRel = mrel == null ? "" : mrel;
+    }
 }
