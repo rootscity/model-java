@@ -7,11 +7,15 @@ import java.util.Map;
  * Date: 10/13/16
  */
 public class Name {
-   	public Map<String, NameForm> nameForms;
-   	public String type;
+	public Map<String, NameForm> nameForms;
+	public String type;
 
-@Override
-public String toString() {
-	return nameForms==null || nameForms.isEmpty()? "": nameForms.values().toArray()[0].toString();
-}
+	@Override
+	public String toString() {
+		return nameForms == null || nameForms.isEmpty() ? "" : firstName().toString();
+	}
+
+	public NameForm firstName() {
+		return nameForms == null || nameForms.isEmpty() ? null : nameForms.get(0);
+	}
 }
