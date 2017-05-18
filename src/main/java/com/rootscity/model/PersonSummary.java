@@ -16,4 +16,8 @@ public class PersonSummary {
 	public String deathDateSort;
 	public String deathPlace;
 	public String deathPlaceStandard;
+
+	public String getName() {
+		return nameParts.toString();
+	}
 }

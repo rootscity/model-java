@@ -20,10 +20,10 @@ public class Person
 	public Map<Long, PersonFact> facts;  // map 2^32 random number -> fact
 
 	public NameForm getName() {
-		return preferredNameKey==null? null: names.get(preferredNameKey).firstName();
+		return preferredNameKey==null? new NameForm(): names.get(preferredNameKey).firstName();
 	}
 
 	public String getNameStr() {
-		return preferredNameKey==null? null: names.get(preferredNameKey).toString();
+		return preferredNameKey==null? "": names.get(preferredNameKey).toString();
 	}
 }

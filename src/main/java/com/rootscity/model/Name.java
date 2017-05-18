@@ -16,6 +16,6 @@ public class Name {
 	}
 
 	public NameForm firstName() {
-		return nameForms == null || nameForms.isEmpty() ? null : nameForms.get(0);
+		return nameForms == null || nameForms.isEmpty() ? null : nameForms.values().iterator().next();
 	}
 }
