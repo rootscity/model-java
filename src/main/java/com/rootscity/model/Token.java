@@ -5,8 +5,8 @@ package com.rootscity.model;
  * Date: 10/13/16
  */
 public class Token {
-    public String primary;
     public Long treeId;
+    public String primary;
     public String fsTreeId;
     public Hinting hinting;
     public Person[] persons;
@@ -25,4 +25,8 @@ public class Token {
     public Long[] deletedSourceIds;
     public Long[] deletedStoryIds;
     public Integer timesRetried;
+
+    public Boolean isTreeToken() {
+        return persons != null && persons.length == 0;
+    }
 }
