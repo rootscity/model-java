@@ -18,12 +18,4 @@ public class Person
 	public String living;
 	public String gender;
 	public Map<Long, PersonFact> facts;  // map 2^32 random number -> fact
-
-	public NameForm getName() {
-		return preferredNameKey==null? new NameForm(): names.get(preferredNameKey).firstName();
-	}
-
-	public String getNameStr() {
-		return preferredNameKey==null? "": names.get(preferredNameKey).toString();
-	}
 }

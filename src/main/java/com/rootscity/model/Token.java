@@ -25,8 +25,4 @@ public class Token {
     public Long[] deletedSourceIds;
     public Long[] deletedStoryIds;
     public Integer timesRetried;
-
-    public Boolean isTreeToken() {
-        return persons != null && persons.length == 0;
-    }
 }

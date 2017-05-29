@@ -6,7 +6,7 @@
 
     <groupId>com.rootscity.model</groupId>
     <artifactId>model</artifactId>
-    <version>0.31</version>
+    <version>0.32</version>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
