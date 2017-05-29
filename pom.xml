@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.rootscity.model</groupId>
-    <artifactId>model</artifactId>
+    <artifactId>model-java</artifactId>
     <version>0.26</version>
 
     <properties>
