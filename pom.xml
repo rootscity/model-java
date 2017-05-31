@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.rootscity</groupId>
-    <artifactId>model-java</artifactId>
-    <version>0.32</version>
+    <artifactId>model</artifactId>
+    <version>0.27</version>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
