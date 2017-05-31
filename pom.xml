@@ -6,7 +6,7 @@
 
     <groupId>com.github.rootscity</groupId>
     <artifactId>model-java</artifactId>
-    <version>0.26</version>
+    <version>0.27</version>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
