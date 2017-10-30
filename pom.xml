@@ -6,7 +6,7 @@
 
     <groupId>com.github.rootscity</groupId>
     <artifactId>model-java</artifactId>
-    <version>0.32</version>
+    <version>0.33</version>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -21,6 +21,11 @@
             <artifactId>commons-io</artifactId>
             <version>2.4</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.13.0-M2</version>
         </dependency>
     </dependencies>
 
