@@ -1,5 +1,6 @@
 package com.rootscity.model;
 
+import java.io.Serializable;
 import java.util.Map;
 
 /**
@@ -7,7 +8,8 @@ import java.util.Map;
  * Date: 10/13/16
  */
 public class Person
-		extends FirstClassObject {
+		extends FirstClassObject implements Serializable {
+	protected static final transient long serialVersionUID = 3522152261477526412L;
 	public Long profilePhoto;
 	public Long coverPhoto;
 	public Long preferredNameKey;  // key of the preferred name in the names map

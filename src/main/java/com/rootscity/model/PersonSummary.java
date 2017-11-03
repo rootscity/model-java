@@ -1,9 +1,12 @@
 package com.rootscity.model;
 
+import java.io.Serializable;
+
 /**
  * Created by Nano on 06/01/2017.
  */
-public class PersonSummary {
+public class PersonSummary implements Serializable {
+	protected static final transient long serialVersionUID = 1818522477511644512L;
 	public Long id;
 	public NameForm nameParts;
 	public String gender;
