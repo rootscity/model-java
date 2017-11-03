@@ -1,6 +1,6 @@
 package com.rootscity.model;
 
-import scala.Serializable;
+import java.io.Serializable;
 
 /**
  * User: dallan
