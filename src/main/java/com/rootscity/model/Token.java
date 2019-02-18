@@ -6,6 +6,7 @@ package com.rootscity.model;
  */
 public class Token {
     public Long treeId;
+    public String treeSource;
     public String primary;
     public String fsTreeId;
     public Hinting hinting;
