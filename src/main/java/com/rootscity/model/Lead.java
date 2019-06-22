@@ -14,6 +14,8 @@ public class Lead extends FirstClassObject implements Serializable {
     public String title;
     public String url;
     public String text;
-    public Boolean hidden;
+    public int state;
+    public String status;
+    public long assignedUserId;
     public Map<Long, Boolean> personIds;
 }
