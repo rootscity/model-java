@@ -12,7 +12,6 @@ public class Person
 	protected static final transient long serialVersionUID = 3522152261477526412L;
 	public Long profilePhoto;
 	public Long coverPhoto;
-	public Integer ownerId;
 	public Long preferredNameKey;  // key of the preferred name in the names map
 	public Long preferredBirthKey;  // key of the preferred birth in the facts map
 	public Long preferredDeathKey;  // key of the preferred death in the facts map
